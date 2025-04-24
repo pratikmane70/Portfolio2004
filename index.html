@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Mane | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.19/dist/lenis.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <div id="hero">
+        <div id="model-container"></div>
+        <div class="hero-content">
+            <div class="typewriter-wrapper">
+                <h1 id="typewriter" class="typewriter"></h1>
+            </div>
+            <p class="subtitle">ARTIST & DEVELOPER</p>
+            <p class="tagline">Crafting beautiful digital experiences through code and creativity.</p>
+            <div class="cta-container">
+                <a href="#projects" class="cta-button primary">View My Work</a>
+                <a href="#contact" class="cta-button secondary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="img-wrapper">
+                        <img src="img/profile.jpg" alt="Profile Picture">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="img-border"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <div class="text-content">
+                        <p>I am a passionate artist and programmer with expertise in HTML, CSS, JavaScript, and Python. I love creating visually appealing and functional digital experiences that combine my artistic vision with technical skills.</p>
+                        <p>My background in both art and programming allows me to approach projects with a unique perspective, focusing on both aesthetics and functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="skills-marquee">
+        <div class="skills-track">
+            <div class="marquee-content">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                        <span>C</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                        <span>GitHub</span>
+                    </div>
+                </div>
+            </div>
+            <div class="marquee-content">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                        <span>C</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                        <span>GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-showcase">
+                <div class="showcase-tabs">
+                    <button class="showcase-tab active" data-tab="all">View All</button>
+                    <button class="showcase-tab" data-tab="dev">Development</button>
+                    <button class="showcase-tab" data-tab="art">Artwork</button>
+                </div>
+                
+                <div class="showcase-content">
+                    <div class="projects-grid">
+                        <div class="project-card" data-category="dev">
+                            <div class="project-img">
+                                <img src="img/dpa.jpg" alt="Project 1">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://dhanrajpowarandassociates.onrender.com" class="project-btn" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/DhanrajPowarAndAssociates/DhanrajPowarAndAssociates" class="project-btn">
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>ArchiTrack</h3>
+                                <p>A professional website built for saving logs of construction sites, for Dhanaraj Powar and Associates.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>flask</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card" data-category="art">
+                            <div class="project-img">
+                                <div class="gallery-container">
+                                    <img src="img/mrunal.jpg" alt="Sketch Art" class="gallery-main-img">
+                                    <div class="gallery-preview">
+                                        <span class="gallery-count">+4 more</span>
+                                    </div>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="#" class="project-btn gallery-view-btn">
+                                            <span>View Gallery</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Sketch Artwork Collection</h3>
+                                <p>A collection of hand-drawn sketches and pencil artwork.</p>
+                                <div class="project-tags">
+                                    <span>Sketches</span>
+                                    <span>Pencil Art</span>
+                                    <span>Traditional</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card" data-category="dev">
+                            <div class="project-img">
+                                <img src="img/mindpulse.png" alt="Project 3">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://mindpulse-8eir.onrender.com/" class="project-btn" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/Async-NickL/MindPulse" class="project-btn">
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>MIND PULSE</h3>
+                                <p>A mental health monitor project built with Python.</p>
+                                <div class="project-tags">
+                                    <span>Python</span>
+                                    <span>GUI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery Modal -->
+            <div class="gallery-modal">
+                <div class="gallery-modal-content">
+
+                    <button class="gallery-cancel">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                    <div class="gallery-main">
+                        <img src="img/mrunal.jpg" class="gallery-full-img">
+                        <button class="gallery-nav prev">&#10094;</button>
+                        <button class="gallery-nav next">&#10095;</button>
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <img src="img/mrunal.jpg" alt="Mrunal Sketch" class="gallery-thumb active" data-src="img/mrunal.jpg">
+                        <img src="img/bachhan.jpg" alt="Bachchan Sketch" class="gallery-thumb" data-src="img/bachhan.jpg">
+                        <img src="img/bappa.jpg" alt="Bappa Sketch" class="gallery-thumb" data-src="img/bappa.jpg">
+                        <img src="img/hindavi.jpg" alt="Hindavi Sketch" class="gallery-thumb" data-src="img/hindavi.jpg">
+                        <img src="img/radhakrishn.jpg" alt="Radhakrishna Sketch" class="gallery-thumb" data-src="img/radhakrishn.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="section-subtitle">My Contact Details</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>p7028410236@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>7028410236</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kolhapur</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pratik-mane-6a794a347" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/shades_of_pratik_09/" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="section-subtitle">Send Me a Message</h3>
+                    <form id="contact-form" action="mailto:p7028410236@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Made and Crafted with Love By Pratik Mane</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>    
+    <script src="./script/script.js"></script>
+    <script src="./script/model.js"></script>
+</body>
+</html>
+
